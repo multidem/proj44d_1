@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="num" type="text" size="2" placeholder="число">
+<button onclick="res()">Рассчитать</button> 
+
+
+    <script>
+
+        function res() {
+
+        let n1 = num.value;    
+            alert(myPow(n1))
+
+        }
+
+        function myPow(n) {
+
+            let y = n * n;
+            return y;
+        }
+
+        // alert(myPow(5)); // alert(25)
+        // alert(myPow(8));
+
+        // y = 5^2 + 8^2;
+
+             //    25    +    64 
+        // let y = myPow(5) + myPow(8);  // 89
+        // alert(y);
+
+
+    </script>
+
+
+</body>
+</html>
